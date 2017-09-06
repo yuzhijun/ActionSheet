@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+             >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="拍照"
+        android:textColor="@color/actionsheet_blue"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:background="@drawable/actionsheet_middle_selector"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="图片"
+        android:textColor="@color/actionsheet_red"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:background="@drawable/actionsheet_middle_selector"
+        />
+</merge>
